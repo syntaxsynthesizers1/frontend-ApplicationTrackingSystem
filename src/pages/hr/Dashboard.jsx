@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VictoryLine,
   VictoryChart,
@@ -77,7 +76,7 @@ const Dashboard = () => {
 
               <div className="bg-white overflow-hidden shadow rounded-lg p-6">
                 <h2 className="text-lg font-semibold mb-4">
-                  Today's Schedules
+                  Today&apos;s Schedules
                 </h2>
                 <ul>
                   <li>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Sidebar } from "flowbite-react";
 import {
   HiChartPie,
@@ -16,7 +15,7 @@ const SideBar = () => {
       <Sidebar className="h-screen flex-shrink-0 fixed">
         <Sidebar.Logo
           href="/dashboard"
-          img="src/assests/img/inter-logo.png"
+          img="/src/assests/img/inter-logo.png"
           imgAlt="Interswitch G4 ATS Logo"
         ></Sidebar.Logo>
         <Sidebar.Logo>Interswitch G4 ATS</Sidebar.Logo>
@@ -32,7 +31,7 @@ const SideBar = () => {
             >
               Applications
             </Sidebar.Item>
-            <Sidebar.Item href="#" icon={HiInbox} className="mb-4">
+            <Sidebar.Item href="/jobs" icon={HiInbox} className="mb-4">
               Job Posting
             </Sidebar.Item>
             <Sidebar.Item href="#" icon={HiUser} className="mb-4">

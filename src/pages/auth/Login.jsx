@@ -1,4 +1,3 @@
-import React from "react";
 
 const Login = () => {
   return (
@@ -60,7 +59,7 @@ const Login = () => {
           </form>
           <div className="mt-4 text-sm text-center">
             <p className="font-medium text-gray-600 my-2">
-              Don't have an account?
+              Don&apos;t have an account?
             </p>
             <p className="font-medium text-gray-600 my-2">
               HR Accounts are created by Management. Please contact Management.
