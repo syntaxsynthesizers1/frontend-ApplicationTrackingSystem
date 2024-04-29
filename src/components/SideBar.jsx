@@ -15,7 +15,7 @@ const SideBar = () => {
       <Sidebar className="h-screen flex-shrink-0 fixed">
         <Sidebar.Logo
           href="/dashboard"
-          img="/inter-logo.png"
+          img="public/inter-logo.png"
           imgAlt="Interswitch G4 ATS Logo"
         ></Sidebar.Logo>
         <Sidebar.Logo>Interswitch G4 ATS</Sidebar.Logo>
